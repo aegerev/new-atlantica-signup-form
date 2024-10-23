@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/new-atlantica-signup-form/static/css/main.db57aea4.css",
+    "main.js": "/new-atlantica-signup-form/static/js/main.f785ccbf.js",
+    "static/js/453.0cc4faa5.chunk.js": "/new-atlantica-signup-form/static/js/453.0cc4faa5.chunk.js",
+    "index.html": "/new-atlantica-signup-form/index.html",
+    "main.db57aea4.css.map": "/new-atlantica-signup-form/static/css/main.db57aea4.css.map",
+    "main.f785ccbf.js.map": "/new-atlantica-signup-form/static/js/main.f785ccbf.js.map",
+    "453.0cc4faa5.chunk.js.map": "/new-atlantica-signup-form/static/js/453.0cc4faa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db57aea4.css",
+    "static/js/main.f785ccbf.js"
+  ]
+}
