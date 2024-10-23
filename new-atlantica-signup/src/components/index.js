@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import './styles.css';
-import {checkPassword, authorizeEmail} from '../utils/helpers.js';
+import {checkPassword, authorizeEmail} from '../utils/helpers'
 
 function Form() {
     const [email, setEmail] = useState('');
@@ -23,9 +23,7 @@ function Form() {
     };
 
     let handleFormSubmit = (e) => {
-        e.preventDefault();
-
-        if(!authorizeEmail(email) || !userName) {
+        if(!authorizeEmail(email) || userName.trim() === "") {
             setErrorMessage("Email or username is invalid");
             return;
         }
@@ -43,7 +41,7 @@ function Form() {
 
     return (
         <div className="container text-center">
-          <h1>Hello {userName}</h1>
+          <h1>Hello {userName}!</h1>
           <form className="form" onSubmit={handleFormSubmit}>
             <input
               value={email}
